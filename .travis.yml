@@ -18,6 +18,8 @@ matrix:
 before_install:
   - cargo install --force cargo-audit
 
+install: cargo build
+
 script:
   - cargo audit
   - cargo test --verbose
