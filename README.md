@@ -1,4 +1,4 @@
-# envoyproxy.rs [![Build Status][travis.svg]][travis] [![Crates.io][crate.svg]][crate]
+# envoyproxy.rs [![Build Status][travis.svg]][travis] [![Crates.io][crate.svg]][crate] [![Docs.rs][docs.svg]][docs]
 
 Envoy ProtoBuf and JSON data bindings for Rust via Prost and Serde.
 
