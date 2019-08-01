@@ -10,3 +10,9 @@ repository = "https://github.com/naftulikay/envoyproxy.rs"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+prost = "0.5"
+prost-types = "0.5"
+
+[build-dependencies]
+glob = "0.3"
+prost-build = { version = "0.5" }
